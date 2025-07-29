@@ -1,5 +1,17 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
+// 變數、通用樣式(顏色變數)
+@import './helper/variables';
 
+// 第三方套件(eg. bootstrap)
 
-@import './pages/index.scss';
+// base(reset.基本樣式)
+@import './base/reset';
+@import './base/base';
+
+// components(元件)
+
+// layout(重複的)
+@import './layout/header';
+@import './layout/footer';
+
+// pages
+@import './pages/index';
