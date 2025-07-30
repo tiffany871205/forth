@@ -24,37 +24,37 @@
     font-weight: 700;
 }
 
-h1{
+.h1-style{
     font-size: 40px;
     line-height: 1.2;
     font-weight: 700;
 }
 
-h2{
+.h2-style{
     font-size: 32px;
     line-height: 1.2;
     font-weight: 700;
 }
 
-h3{
+.h3-style{
     font-size: 28px;
     line-height: 1.2;
     font-weight: 700;
 }
 
-h4{
+.h4-style{
     font-size: 24px;
     line-height: 1.2;
     font-weight: 700;
 }
 
-h5{
+.h5-style{
     font-size: 20px;
     line-height: 1.2;
     font-weight: 700;
 }
 
-h6{
+.h6-style{
     font-size: 16px;
     line-height: 1.2;
     font-weight: 700;
@@ -94,4 +94,16 @@ h6{
 
 .paragraph-xs{
     font-size: 12px;
+}
+
+.primary-btn-lg{
+    color: $neutral-900;
+    //$label-md
+    background-color: $primary-300;
+    padding: 12px 24px;
+    border-radius: 4px;
+
+    &:hover{
+        color: $primary-500;
+    }
 }
