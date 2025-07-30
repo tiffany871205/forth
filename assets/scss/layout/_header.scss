@@ -1,4 +1,31 @@
 .header{
-  background: #69F0AE;
-  font-size: 64px;
+  margin: 0 auto;
+  max-width: 1296px;
 }
+
+.header-nav{
+  padding: 16px 0;
+}
+
+.header-list{
+  margin-left: 8px;
+
+  a{
+    padding: 12px 0;
+    font-weight: 500;
+    color: $neutral-900;
+    margin-left: 40px;
+
+    &:hover{
+      color: $neutral-600;
+    }
+  }
+}
+
+.member{
+  padding: 12px;
+  margin-left: auto;
+  font-size: 24px;
+  color: $neutral-900;
+}
+

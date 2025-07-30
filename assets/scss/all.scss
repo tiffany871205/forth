@@ -8,6 +8,8 @@
 @import './base/base';
 
 // components(元件)
+@import './helper/utils';
+@import "helper/variables";
 
 // layout(重複的)
 @import './layout/header';
