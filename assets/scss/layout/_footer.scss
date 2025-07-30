@@ -1,4 +1,32 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+footer{
+  background-color: $neutral-100;
+  margin: 0 auto;
+  padding: 64px 12px;
+}
+
+.footer-nav{
+  margin: 0 auto;
+  max-width: 1296px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid $neutral-300;
+}
+
+.footer-list{
+  margin-left: auto;
+
+  a{
+    color: $neutral-900;
+    margin-left: 40px;
+    padding: 12px 0;
+
+    &:hover{
+      color: $neutral-600;
+    }
+  }
+}
+
+.copyright{
+  margin-top: 32px;
+  margin-bottom: 64px;
+  text-align: center;
 }

@@ -122,6 +122,7 @@ main{
 
 .sale-text{
   text-align: center;
+  position: relative;
   h3{
     color: $neutral-0;
     margin-bottom: 32px;
@@ -129,6 +130,16 @@ main{
   p{
     color: $neutral-500;
     margin-bottom: 48px;
+  }
+  .star{
+    position: absolute;
+    top: -50px;
+    left: -80px;
+  }
+  .sparkle{
+    position: absolute;
+    bottom: -40px;
+    right: -60px;
   }
 }
 
@@ -142,3 +153,68 @@ main{
     margin: 0 24px;
   }
 }
+
+.series{
+  margin: 0 auto;
+  max-width: 1296px;
+  padding: 64px 0;
+
+  h3{
+    margin-bottom: 16px;
+  }
+}
+
+.series-card{
+  position: relative;
+}
+
+.series-text{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(black, 0.4);
+  h4{
+    margin-bottom: 8px;
+    color: $neutral-0;
+
+    &:hover{
+      color: $primary-300
+    }
+  }
+  p{
+    color: $neutral-0;
+  }
+}
+
+.series-container{
+  a{
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .series-pic{
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 64px;
+}
+
+.style{
+  margin: 0 auto;
+  max-width: 1296px;
+}
+
+.style-pic{
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.block{
+  padding: 4px;
+}
+
+

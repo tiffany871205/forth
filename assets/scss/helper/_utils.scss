@@ -7,6 +7,10 @@
     justify-content: center;
 }
 
+.jcsb{
+    justify-content: space-between;
+}
+
 .aic {
     align-items: center;
 }
@@ -15,8 +19,24 @@
     flex-wrap: wrap;
 }
 
+.fd-c {
+    flex-direction: column;
+}
+
 .col-6 {
     max-width: 50%;
+}
+
+.col-3 {
+    max-width: 25%;
+}
+
+.col-4{
+    max-width: 33.333333%;
+}
+
+.col-12{
+    max-width: 100%;
 }
 
 //文字
@@ -108,12 +128,22 @@
 //按鈕
 .primary-btn-lg{
     color: $neutral-900;
-    //$label-md
     background-color: $primary-300;
     padding: 12px 24px;
     border-radius: 4px;
 
     &:hover{
         color: $primary-500;
+    }
+}
+
+.neutral-btn-lg{
+    color: $neutral-0;
+    background-color: $neutral-900;
+    padding: 12px 24px;
+    border-radius: 4px;
+
+    &:hover{
+    background-color: $neutral-700;
     }
 }
