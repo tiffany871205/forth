@@ -1,5 +1,4 @@
 //通用樣式
-
 .d-flex {
     display: flex;
 }
@@ -12,13 +11,22 @@
     align-items: center;
 }
 
-.dispaly-1{
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    max-width: 50%;
+}
+
+//文字
+.display-1{
     font-size: 64px;
     line-height: 1.2;
     font-weight: 700;
 }
 
-.dispaly-2{
+.display-2{
     font-size: 48px;
     line-height: 1.2;
     font-weight: 700;
@@ -96,6 +104,8 @@
     font-size: 12px;
 }
 
+
+//按鈕
 .primary-btn-lg{
     color: $neutral-900;
     //$label-md

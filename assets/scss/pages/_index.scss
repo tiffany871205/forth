@@ -4,20 +4,141 @@
 }
 
 .banner{
-  height: 800px;
-  background-image: url('../../images/w3/banner.png');
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner.png?raw=true);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  margin-bottom: 64px;
 
   padding-top: 289px;
   padding-bottom: 288px;
   padding-left: 200px;
 
     h1{
+      color: $neutral-0;
       margin-bottom: 16px;
     }
-    h3{
+    h4{
+      color: $neutral-0;
       margin-bottom: 48px;
     }
+}
+
+main{
+  margin: 0 auto;
+  max-width: 1296px;
+}
+
+.main-text{
+  text-align: center;
+  margin-bottom: 32px;
+
+  h2{
+    margin-bottom: 12px;
+  }
+}
+
+.main-card{
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 40px;
+
+  h5{
+    color: $neutral-900;
+  }
+  p{
+    color: $neutral-900;
+  }
+  img{
+    margin-bottom: 12px;
+  }
+}
+
+.main-pic{
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.main-container{
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 24px;
+}
+
+.hot{
+  margin: 0 auto;
+  max-width: 1296px;
+  
+  h3{
+    margin-top: 64px;
+    margin-bottom: 16px;
+  }
+}
+
+.hot-card{
+  padding-left: 12px;
+  padding-right: 12px;
+  a{
+    position: relative;
+  }
+  p{
+    padding: 8px 12px;
+    background-color: $primary-100;
+    position: absolute;
+    color: $primary-400;
+  }
+}
+
+.hot-container{
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.hot-pic{
+  margin-bottom: 64px;
+}
+
+/*如果會出現x軸再加回來
+.hot-pic{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+*/
+
+.sale{
+  margin: 0 auto;
+  padding: 48px 0;
+}
+
+.sale-container{
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sale-text{
+  text-align: center;
+  h3{
+    color: $neutral-0;
+    margin-bottom: 32px;
+  }
+  p{
+    color: $neutral-500;
+    margin-bottom: 48px;
+  }
+}
+
+.sale-title{
+  margin-bottom: 16px;
+  h2{
+    color: $neutral-0;
+  }
+  h3{
+    color: $primary-300;
+    margin: 0 24px;
+  }
 }
