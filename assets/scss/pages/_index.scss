@@ -96,14 +96,9 @@ main{
 
 .hot-pic{
   margin-bottom: 64px;
-}
-
-/*如果會出現x軸再加回來
-.hot-pic{
   padding-left: 12px;
   padding-right: 12px;
 }
-*/
 
 .sale{
   margin: 0 auto;
@@ -206,6 +201,10 @@ main{
 .style{
   margin: 0 auto;
   max-width: 1296px;
+
+  h3{
+    margin-bottom: 16px;
+  }
 }
 
 .style-pic{
@@ -217,4 +216,204 @@ main{
   padding: 4px;
 }
 
+@media (max-width: 768px) {
+  .header{
+    max-width: 375px;
+  }
 
+  .header-nav{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+
+    img{
+      padding: 12px 0;
+    }
+  }
+
+  .header-list{
+    margin: 0;
+    a{
+      padding: 12px 54px;
+      margin: 0;
+    }
+  }
+
+  .member{
+    display: none;
+  }
+
+  .member2{
+    display: contents;
+    font-size: 24px;
+    color: $neutral-900;
+    margin-left: auto;
+  }
+
+  .bg-primary-200{
+    background-color: $primary-200;
+  }
+
+    .bg-primary-100{
+    background-color: $primary-100;
+  }
+
+  .banner{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true);
+    padding: 155px 24px;
+    margin-bottom: 40px;
+
+    h1{
+      margin-bottom: 8px;
+    }
+    h4{
+      margin-bottom: 32px;
+    }
+  }
+
+  .main-card{
+    margin-bottom: 24px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .main-pic{
+    margin-left: -6px;
+    margin-right: -6px;
+  }
+
+  .main-container{
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .main-text{
+    margin-bottom: 16px;
+  }
+
+  main{
+    max-width: 375px;
+  }
+
+  .hot{
+  max-width: 375px;
+  
+  h3{
+    margin-top: 40px;
+  }
+}
+
+.hot-card{
+  padding-left: 8px;
+  padding-right: 8px;
+  min-width: 316px;
+}
+
+.hot-container{
+  margin-left: -8px;
+  margin-right: -8px;
+  overflow: scroll;
+}
+
+.hot-pic{
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 40px;
+}
+
+.sale{
+  padding: 24px 0;
+}
+
+.sale-container{
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded-sm.png?raw=true);
+  padding: 64px 24px;
+}
+
+.sale-text{
+
+  h3{
+    margin-bottom: 24px;
+  }
+  p{
+    margin-bottom: 32px;
+  }
+  .star{
+    top: -40px;
+    left: -50px;
+  }
+  .sparkle{
+    bottom: -40px;
+    right: -60px;
+  }
+}
+
+.sale-title{
+  display: block;
+  margin-bottom: 16px;
+  h3{
+    margin: 8px 0;
+  }
+}
+
+.series{
+  max-width: 375px;
+  padding: 40px 0;
+}
+
+.series-card{
+  margin-bottom: 12px;
+}
+
+.m-col-6{
+  min-width: 50%;
+}
+
+.series-container{
+  a{
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .series-pic{
+    flex-wrap: wrap;
+    margin-left: -6px;
+    margin-right: -6px;
+  }
+
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-bottom: 40px;
+}
+
+
+
+.style{
+  max-width: 375px;
+}
+
+.style-col-4{
+  width: unset;
+}
+
+.style-col-6{
+  width: unset;
+}
+
+.style-col-12{
+  width: unset;
+}
+
+.style-pic{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.block{
+  padding: 0px;
+  margin-right: 16px;
+}
+
+.m-nw{
+  flex-wrap: nowrap;
+}
+}
