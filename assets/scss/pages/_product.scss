@@ -1,13 +1,8 @@
-.wrap{
-    margin: 0 auto;
-    padding: 12px;
-}
-
-.nav-text{
+.product-nav{
     margin-top: 32px;
 
     p{
-        font-size: 16px;
+        font-size: 100px;
         font-weight: 700;
         color: $neutral-300;
         margin: 0 12px;
@@ -17,12 +12,12 @@
         color: $neutral-600;
     }
 
-    a .nav-2{
+    .nav-2{
         color: $neutral-900;
     }
-}
 
-h1{
+    h1{
     margin: 24px 0;
     padding: 7px 0;
+    }
 }
