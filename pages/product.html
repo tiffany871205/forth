@@ -11,35 +11,37 @@
     <%- include('./layout/header'); -%>
 
     <div class="pro-nav">
-      <a class="label-md" href="#">首頁</a>
+      <a class="label-md .m-label-sm" href="#">首頁</a>
       <p>/</p>
-      <a class="label-md" href="#">女鞋</a>
+      <a class="label-md .m-label-sm" href="#">女鞋</a>
       <p>/</p>
-      <a class="hard label-md" href="#">所有商品</a>
+      <a class="hard label-md .m-label-sm" href="#">所有商品</a>
+      
+      <h1 class="h3-style .m-label-sm">女鞋</h1>
     </div>
 
-    <h1 class="h3-style">女鞋</h1>
-
-    <main>
-      <aside class="aside">
-        <a class="label-md" href="#">所有商品</a>
-        <a class="label-md" href="#">慢跑鞋</a>
-        <a class="label-md" href="#">滑板鞋</a>
-        <a class="label-md" href="#">厚底鞋</a>
-        <a class="label-md" href="#">限定 / 聯名企劃</a>
+    <main class="main d-flex jcc">
+      <aside class="aside col-2">
+        <ul>
+        <li><a class="label-md primary-400" href="#">所有商品</a></li>
+        <li><a class="label-md" href="#">慢跑鞋</a></li>
+        <li><a class="label-md" href="#">滑板鞋</a></li>
+        <li><a class="label-md" href="#">厚底鞋</a></li>
+        <li><a class="label-md" href="#">限定 / 聯名企劃</a></li>
+      </ul>
       </aside>
 
-      <section class="pro-list">
-        <ul class="pro-container">
-          <li>
+      <section class="pro-list col-10 m-col-12">
+        <ul class="pro-container d-flex f-wrap">
+          <li class="col-4 m-col-6">
             <a href="shoe.html">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product.png?raw=true" alt="PLATFORM 404">
               <h2 class="h6-style">PLATFORM 404</h2>
               <p class="label-md">NT$2,600</p>
-            </a>
+            </a>  
           </li>
 
-          <li>
+          <li class="col-4 m-col-6">
             <a href="#">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-1.png?raw=true" alt="PLATFORM 404">
               <h2 class="h6-style">PLATFORM 404</h2>
@@ -47,7 +49,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="col-4 m-col-6">
             <a href="#">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-2.png?raw=true" alt="VM001">
               <h2 class="h6-style">VM001</h2>
@@ -55,7 +57,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="col-4 m-col-6">
             <a href="#">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-3.png?raw=true" alt="Melty Kiss">
               <h2 class="h6-style">Melty Kiss</h2>
@@ -63,7 +65,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="col-4 m-col-6">
             <a href="#">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true" alt="BOOMBLOK">
               <h2 class="h6-style">BOOMBLOK</h2>
@@ -71,7 +73,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="col-4 m-col-6">
             <a href="#">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-5.png?raw=true" alt="BOOMBLOK">
               <h2 class="h6-style">BOOMBLOK</h2>
@@ -79,7 +81,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="col-4 m-col-6">
             <a href="#">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-6.png?raw=true" alt="R:UNER">
               <h2 class="h6-style">R:UNER</h2>
@@ -87,7 +89,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="col-4 m-col-6">
             <a href="#">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-7.png?raw=true" alt="Sugar Snap">
               <h2 class="h6-style">Sugar Snap</h2>
@@ -95,7 +97,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="col-4 m-col-6">
             <a href="#">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-8.png?raw=true" alt="Neofoam">
               <h2 class="h6-style">Neofoam</h2>
@@ -105,13 +107,15 @@
         </ul>
 
         <div class="pagination">
-          <a class="paragraph-md" href="#"><i class="bi bi-chevron-left"></i></a>
-          <a class="paragraph-md" href="#">1</a>
-          <a class="paragraph-md" href="#">2</a>
-          <a class="paragraph-md" href="#">3</a>
-          <a class="paragraph-md" href="#">...</a>
-          <a class="paragraph-md" href="#">10</a>
-          <a class="paragraph-md" href="#"><i class="bi bi-chevron-right"></i></a>
+          <ul class="d-flex jcc">
+          <li><a class="paragraph-md m-label-md pb page-dis" href="#"><i class="bi bi-chevron-left"></i></a></li>
+          <li><a class="paragraph-md m-label-md ps page-select" href="#">1</a></li>
+          <li><a class="paragraph-md m-label-md ps" href="#">2</a></li>
+          <li><a class="paragraph-md m-label-md ps" href="#">3</a></li>
+          <li><a class="paragraph-md m-label-md ps" href="#">...</a></li>
+          <li><a class="paragraph-md m-label-md pb" href="#">10</a></li>
+          <li><a class="paragraph-md m-label-md pb" href="#"><i class="bi bi-chevron-right"></i></a></li>
+          </ul>
         </div>
       </section>
     </main>

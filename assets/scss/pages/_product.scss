@@ -4,6 +4,8 @@
 }
 
 .pro-nav{
+    margin: 0 auto;
+    max-width: 1296px;
     p{
         font-size: 16px;
         font-weight: 700;
@@ -16,4 +18,155 @@
     .hard{
         color: $neutral-900;
     }
+
+    h1{
+        margin: 31px 0;
+    }
+}
+
+.main{
+    margin: 0 auto;
+    max-width: 1296px;
+}
+
+
+.primary-400{
+    color: $primary-400;
+}
+
+.aside{
+    margin-right: 24px;
+
+    a{
+        margin-bottom: 16px;
+        padding: 12px 0;
+        padding-right: 70px;
+    }
+}
+.pro-list{
+    padding: 0 12px;
+}
+.pro-container{
+    margin: 0 -12px;
+    li{
+        padding: 0 12px;
+        margin-bottom: 48px;
+    }
+    img{
+        margin-bottom: 12px;
+    }
+    h2{
+        margin-bottom: 4px;
+    }
+}
+
+.pagination{
+    margin-top: 48px;
+    margin-bottom: 32px;
+    ul{
+        gap: 8px;
+    }
+
+    a:hover{
+        color: $neutral-600;
+    }
+    a:active{
+        background-color: $primary-300;
+    }
+    a:disabled{
+        color: $neutral-300;
+    }
+}
+
+.pb{
+    padding: 10px;
+}
+
+.ps{
+    padding: 8px 15px;
+}
+
+.page-dis{
+    color: $neutral-300;
+}
+
+.page-select{
+    background-color: $primary-300;
+}
+
+@media (max-width: 768px){
+    .header-list{
+        display: none;
+    }
+
+    .header{
+    max-width: 375px;
+    justify-content: space-between;
+    }
+
+    .header-nav{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0;
+
+        img{
+        padding: 12px 0;
+        }
+    }
+
+    .member{
+    display: contents;
+    }
+
+    .member2{
+    display: none;
+    }
+
+    .aside{
+        display: none;
+    }
+
+    .m-col-12{
+        max-width: 100%;
+    }
+
+    .m-col-6{
+        max-width: 50%;
+    }
+
+
+.pro-nav{
+    max-width: 375px;
+
+    h1{
+        margin: 21.5px 0;
+    }
+}
+
+.main{
+    max-width: 375px;
+}
+
+.pro-list{
+    padding: 0 6px;
+}
+.pro-container{
+    margin: 0 -6px;
+    li{
+        padding: 0 6px;
+        margin-bottom: 24px;
+    }
+    img{
+        margin-bottom: 8px;
+    }
+    h2{
+        margin-bottom: 0px;
+    }
+}
+
+.pagination{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
 }
