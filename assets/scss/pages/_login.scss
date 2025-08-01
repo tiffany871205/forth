@@ -1,0 +1,136 @@
+.login-wrap{
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.login-main{
+    padding: 64px 0;
+    max-width: 1296px;
+}
+
+.login-pic{
+    border-radius: 12px;
+    margin-right: 24px;
+    width: 526px;
+    height: auto;
+    background-image: url(../../images/cf551415ad4c6d8dd99b1a0d64a27773ad8734e1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-space{
+    margin: 0 auto;
+    text-align: center;
+    padding: 120px 80px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login-bg.png?raw=true);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h1{
+        margin-bottom: 32px;
+    }
+}
+
+.login-btn{
+    margin-bottom: 32px;
+    a{
+        padding: 12px 125px;
+    }
+}
+
+.log-act{
+    border-bottom: 2px solid $neutral-900;
+}
+
+.log-dis{
+    color: $neutral-600;
+    border-bottom: 2px solid $neutral-300;
+}
+
+.social-media{
+    a{
+        background-color: $neutral-0;
+        border-radius: 4px;
+        padding: 12px 0;
+        margin-bottom: 8px;
+    }
+
+    img{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
+
+
+
+
+@media (max-width: 768px){
+
+
+.login-main{
+    padding: 0;
+    max-width: 375px;
+}
+
+.login-container{
+    display: block;
+}
+
+
+.login-pic{
+    border-radius: 12px;
+    margin-right: 24px;
+    width: 526px;
+    height: auto;
+    background-image: url(../../images/cf551415ad4c6d8dd99b1a0d64a27773ad8734e1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-space{
+    margin: 0 auto;
+    text-align: center;
+    padding: 120px 80px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login-bg.png?raw=true);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h1{
+        margin-bottom: 32px;
+    }
+}
+
+.login-btn{
+    margin-bottom: 32px;
+    a{
+        padding: 12px 125px;
+    }
+}
+
+.log-act{
+    border-bottom: 2px solid $neutral-900;
+}
+
+.log-dis{
+    color: $neutral-600;
+    border-bottom: 2px solid $neutral-300;
+}
+
+.social-media{
+    a{
+        background-color: $neutral-0;
+        border-radius: 4px;
+        padding: 12px 0;
+        margin-bottom: 8px;
+    }
+
+    img{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
+}

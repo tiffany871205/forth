@@ -7,10 +7,48 @@
     <title>contact</title>
   </head>
   <body>
+    <div class="login-wrap">
     <%- include('./layout/header'); -%>
-    <h1>我是contact</h1>
-    <%- include('./layout/footer'); -%>
+      <main class="login-main">
+        <div class="login-container d-flex">
+          <div class="login-pic col-5"></div>
+          
+          <section class="login-space col-7 d-flex fd-c jcc">
+            <h1 class="h3-style">歡迎</h1>
+            <div class="login-btn d-flex jcc f-wrap">
+              <div class="log-act"><a class="h6-style" href="#">登入</a></div>
+              <div class="log-dis"><a class="h6-style" href="#">註冊</a></div>
+            </div>
+            <div class="social-media">
+              <a class="d-flex aic" href="#">
+                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/14f2133cdd6d831a3acb833025093d4fcbffc381/2025-week3-4/facebook.svg" alt="facebook">
+                <p>Facebook 登入</p>
+              </a>
+              <a class="d-flex aic" href="#">
+                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/14f2133cdd6d831a3acb833025093d4fcbffc381/2025-week3-4/apple.svg" alt="apple">
+                <p>Apple 登入</p>
+              </a>
+              <a class="d-flex aic" href="#">
+                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/14f2133cdd6d831a3acb833025093d4fcbffc381/2025-week3-4/google.svg" alt="google">
+                <p>Google 登入</p>
+              </a>
+            </div>
+          </section>
+        </div>
+      </main>
 
+
+
+
+
+
+
+
+
+
+
+    <%- include('./layout/footer'); -%>
+    </div>
     <script type="module" src="../main.js"></script>
   </body>
 </html>

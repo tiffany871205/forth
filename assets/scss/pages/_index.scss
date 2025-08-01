@@ -392,25 +392,27 @@ main{
 }
 
 .style-col-4{
-  width: unset;
+  max-width: none;
 }
 
 .style-col-6{
-  width: unset;
+  max-width: none;
 }
 
 .style-col-12{
-  width: unset;
+  max-width: none;
 }
 
 .style-pic{
   margin-left: 0;
   margin-right: 0;
+  overflow-x: auto;
 }
 
 .block{
   padding: 0px;
   margin-right: 16px;
+  width: 300px;
 }
 
 .m-nw{
