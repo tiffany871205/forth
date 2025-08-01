@@ -1,7 +1,291 @@
+.wrap{
+    margin: 0 auto;
+}
+
+.main{
+    margin: 0 auto;
+    max-width: 1296px;
+}
+.shoes-pic{
+    padding: 4px;
+    margin-right: 24px;
+    ul{
+        margin: -4px;
+    }
+    li{
+        padding: 4px;
+    }
+}
+
+
 .info-nav{
+    margin-bottom: 12px;
     p{
         font-size: 16px;
         font-weight: 700;
         color: $neutral-300;
+        display: inline;
+        margin: 0 12px;
+    }
+    
+    a{
+        color: $neutral-600;
+    }
+
+    .hard{
+        color: $neutral-900;
     }
 }
+
+.intro{
+    margin-bottom: 32px;
+    h1{
+        margin-bottom: 16px;
+    }
+    .words{
+        margin-bottom: 12px;
+        color: $neutral-900;
+    }
+
+}
+
+.price{
+    margin-bottom: 16px;
+    h2{
+        color: $primary-400;
+        margin-right: 8px;
+    }
+    p{
+        text-decoration: line-through;
+        color: $neutral-500;
+    }
+}
+
+.color{
+    h3{
+    margin-bottom: 8px;
+    }
+}
+
+.color-box{
+    margin-bottom: 32px;
+    a{
+    margin-right: 8px;
+    text-align: center;
+
+    p{
+        color: $neutral-600;
+        margin-top: 4px;
+    }
+    }
+}
+
+.size{
+    margin-bottom: 48px;
+    h3{
+    margin-bottom: 8px;
+    }
+
+    p{
+        color: $danger-300;
+        margin-left: 16px;
+    }
+}
+
+.size-box{
+    margin: 8px;
+    ul{
+        padding: -8px;
+    }
+    a{
+        margin: 8px;
+        text-align: center;
+    }
+}
+
+.btn{
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+article{
+    padding: 12px 0;
+    border-bottom: 1px solid $neutral-300;
+
+    p{
+        color: $neutral-600;
+    }
+}
+
+.sale{
+    margin: 0 auto;
+    padding: 48px 0;
+    max-width: 1296px;
+
+    h5{
+        margin-bottom: 16px;
+    }
+}
+
+.sale-box{
+    padding: 0 12px;
+    li{
+        padding: 0 12px;
+    }
+
+    ul{
+        margin: 0 -12px;
+    }
+
+    img{
+        margin-bottom: 16px;
+    }
+
+    h6{
+        margin-bottom: 4px;
+    }
+}
+
+.m-pic{
+    display: none;
+}
+
+.m-heart{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .main{
+        display: block;
+        max-width: 375px;
+    }
+    .shoes-pic{
+        display: none;
+    }
+    .m-pic{
+        display: contents;
+        margin-bottom: 24px;
+    }
+
+.info-nav{
+    margin-bottom: 8px;
+    p{
+        margin: 0 8px;
+    }
+}
+
+.intro{
+    h1{
+        margin-bottom: 12px;
+    }
+    .words{
+        margin-bottom: 12px;
+    }
+
+}
+
+.price{
+    margin-bottom: 16px;
+    h2{
+        color: $primary-400;
+        margin-right: 8px;
+    }
+    p{
+        text-decoration: line-through;
+        color: $neutral-500;
+    }
+}
+
+.color{
+    h3{
+    margin-bottom: 8px;
+    }
+}
+
+.color-box{
+    margin-bottom: 32px;
+    a{
+    margin-right: 8px;
+    text-align: center;
+
+    p{
+        color: $neutral-600;
+        margin-top: 4px;
+    }
+    }
+}
+
+.size{
+    margin-bottom: 48px;
+    h3{
+    margin-bottom: 8px;
+    }
+
+    p{
+        color: $danger-300;
+        margin-left: 16px;
+    }
+}
+
+.size-box{
+    margin: 8px;
+    ul{
+        padding: -8px;
+    }
+    a{
+        margin: 8px;
+        text-align: center;
+    }
+}
+.heart-bar{
+    display: none;
+}
+
+.m-heart{
+    display: contents;
+    font-size: 24px;
+    padding: 12px;
+    margin-left: 20px;
+}
+.btn{
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.sale{
+    max-width: 375px;
+
+    h5{
+        margin-bottom: 4px;
+    }
+}
+
+.style-col-3{
+    width: 300px;
+}
+
+.sale-box{
+    padding: 0;
+    li{
+        margin-right: 16px;
+        width: 300px;
+        padding: 0;
+    }
+
+    a{
+        width: 300px;
+    }
+
+    ul{
+        margin: 0;
+        overflow: scroll;
+        display: block;
+        display: flex;
+    }
+}
+
+.m-pic{
+    display: none;
+}
+}
+

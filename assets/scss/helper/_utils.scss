@@ -39,6 +39,10 @@
     max-width: 33.33333333%;
 }
 
+.col-7{
+    max-width: 58.3333333%;
+}
+
 .col-10{
     max-width: 83.3333333%;
 }
@@ -166,6 +170,43 @@
     &:hover{
     background-color: $neutral-700;
     }
+}
+
+.default-outline-btn{
+    padding: 12px 24px;
+    border: 1px solid $neutral-300;
+    border-radius: 4px;
+
+    &:hover{
+        border-color: $neutral-700;
+    }
+}
+
+.selected-outline-btn{
+    padding: 12px 24px;
+    border: 1px solid $neutral-900;
+    border-radius: 4px;
+}
+
+.disable-outline-btn{
+    color: $neutral-500;
+    padding: 12px 24px;
+    border: 1px solid $neutral-300;
+    border-radius: 4px;
+}
+
+.outline-btn{
+    padding: 12px 75px;
+    border: 1px solid $neutral-900;
+    border-radius: 4px;
+}
+
+.fill-btn{
+    padding: 12px 75px;
+    border: 1px solid $neutral-900;
+    border-radius: 4px;
+    background-color: $neutral-900;
+    color: $neutral-0;
 }
 
 @media (max-width: 768px){
