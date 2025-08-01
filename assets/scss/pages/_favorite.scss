@@ -1,0 +1,113 @@
+.wrap{
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.main{
+    max-width: 636px;
+}
+
+.title{
+    margin-bottom: 32px;
+}
+
+.check{
+    color: $primary-300;
+    margin-right: 12px;
+}
+
+.open{
+    margin: 0 auto;
+    background-color: $primary-100;
+    padding: 16px 0;
+    padding-left: 16px;
+    margin-bottom: 32px;
+
+    h3{
+        color: $primary-400;
+    }
+}
+
+.truck{
+    margin-right: 12px;
+}
+
+.shoes{
+    margin: 0 auto;
+}
+
+.shoes-container{
+    li{
+    padding-bottom: 32px;
+    border-bottom: 1px solid $neutral-300;
+    margin-bottom: 32px;
+    position: relative;
+    }
+    img{
+        max-width: 120px;
+        margin-right: 16px;
+    }
+}
+
+.text{
+    h2{
+        margin-bottom: 8px;
+    }
+    p{
+        margin-bottom: 8px;
+        color: $neutral-600;
+    }
+}
+
+.number{
+    margin-left: 12px;
+    color: $neutral-900;
+}
+
+.shoe-price{
+    position: absolute;
+    bottom: 32px;
+    right: 0;
+    color: $neutral-900;
+}
+
+.cta{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.m-open{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .open{
+        display: none;
+    }
+
+    .m-open{
+    display: contents;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background-color: $primary-100;
+    padding: 16px 0;
+    padding-left: 16px;
+    margin-bottom: 32px;
+
+        h3{
+        color: $primary-400;
+        }
+
+        .m-truck{
+            font-size: 24px;
+            margin-right: 12px;
+        }
+    }
+
+    .shoe-price{
+    position: unset;
+    }
+
+}
