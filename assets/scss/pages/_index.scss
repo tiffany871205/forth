@@ -1,7 +1,3 @@
-.wrap{
-  margin: 0 auto;
-  padding: 12px;
-}
 
 .banner{
   background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner.png?raw=true);
@@ -207,9 +203,13 @@ main{
   }
 }
 
+.style-block{
+  padding: -4px;
+}
+
 .style-pic{
-  margin-left: -4px;
-  margin-right: -4px;
+  padding-left: -4px;
+  padding-right: -4px;
 }
 
 .block{
@@ -323,6 +323,7 @@ main{
 
 .sale{
   padding: 24px 0;
+  overflow: hidden;
 }
 
 .sale-container{
