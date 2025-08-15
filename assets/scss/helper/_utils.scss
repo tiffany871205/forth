@@ -200,17 +200,19 @@
 }
 
 .outline-btn{
-    padding: 12px 75px;
+    padding: 12px 0;
     border: 1px solid $neutral-900;
     border-radius: 4px;
+    text-align: center;
 }
 
 .fill-btn{
-    padding: 12px 75px;
+    padding: 12px 0;
     border: 1px solid $neutral-900;
     border-radius: 4px;
     background-color: $neutral-900;
     color: $neutral-0;
+    text-align: center;
 }
 
 @media (max-width: 768px){
